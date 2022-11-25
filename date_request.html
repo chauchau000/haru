@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+    <title>Visit Me!</title>
+</head>
+
+<body>
+    <div class-="navbar">
+        <a href="home.html">Intro</a>
+        <a href="date_request.html">Visit Me!</a>
+        <a href="must-haves.html">Must Haves</a>
+        <a href="photos.html">Profile pics</a>
+    </div>
+    <div>
+        <h1>Visit Me!</h1>
+        <p> Fwrends, please fill out this form so I can pencil you into my calendar. I am so excited for our playdate!</p>
+
+        <form action="/form-handling-url" method="post">
+            <fieldset>
+                <legend>
+                    Playdate Request
+                </legend>
+
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name">
+                </div>
+
+                <div>
+                    <label for="date">Date Request</label>
+                    <input type="date" id="date" name="date">
+                </div>
+
+                <div>
+                    <label for="comments">Please include what activities you want to do!</label>
+                    <textarea id="comments" name="comments"></textarea>
+                </div>
+
+                <div>
+                    Please select all your favorite lunch foods!
+                    <div>
+                        <input type="checkbox" id="pizza">
+                        <label for="pizza">Pizza</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="chicken">
+                        <label for="chicken">Chicken</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="kbbq">
+                        <label for="kbbq">K BBQ</label>
+                    </div>
+                </div>
+
+                <div>
+                    <button type="submit">Submit for playdate</button>
+                  </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
