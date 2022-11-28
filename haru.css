@@ -1,0 +1,57 @@
+a:link{
+    color:blue;
+  }
+  a:visited{
+    color: #2671B6;
+  }
+  a:hover{
+    color: green;
+  }
+
+.navbar {
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+
+    font-family: "Baskerville Old Face";
+    font-size: 20pt;
+    color: white;
+
+    background-color: lavender;
+    border: thick double purple;
+    border-radius: 1em;
+    padding: 10px;
+
+    position: sticky;
+    top: 10px;
+}
+
+.photos {
+    width: auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+}
+
+h1{
+    font-family: "Caveat";
+    position: relative;
+    left: 50px;
+}
+
+img{
+    padding: 10px;
+}
+
+h2, p{
+    font-family: "Titillium Web";
+}
+
+form {
+    font-family: sans-serif
+}
+
+label, input, textarea {
+    padding: 4px;
+}
